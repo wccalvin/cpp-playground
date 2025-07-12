@@ -11,5 +11,6 @@ comments
 int main() {
   std::cout << "1... 2.. 3." << std::endl;
   std::cout << "hello, world!\n";
+  std::cout << "4... 5.. 6." << std::endl;
   return 0;
 }
