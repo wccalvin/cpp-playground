@@ -33,3 +33,4 @@
 
 # custom
 *.dSYM
+/build/
