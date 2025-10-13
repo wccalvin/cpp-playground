@@ -6,8 +6,8 @@ bool is_palindrome(std::string text, bool is_debug = false) {
     reverse_text += text[i];
   }
   if (is_debug) {
-    std::cout << text << std::endl;
-    std::cout << reverse_text << std::endl;
+    std::cout << "Original text: " << text << std::endl;
+    std::cout << "Reversed text: " << reverse_text << std::endl;
   }
   if (text == reverse_text) {
     return true;
@@ -16,7 +16,7 @@ bool is_palindrome(std::string text, bool is_debug = false) {
 }
 
 int main() {
-  std::cout << is_palindrome("madam") << "\n";
+  std::cout << is_palindrome("madam", true) << "\n";
   std::cout << is_palindrome("ada") << "\n";
   std::cout << is_palindrome("lovelace", true) << "\n";
 }
